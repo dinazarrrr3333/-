@@ -29,6 +29,7 @@ for number in range(10):
     else:
         print( "вы выиграли")
         count += 1
+    print(f"вы побидили {count} раз(а)")
     if count == 3:
         print("игра окончена!")
         break
